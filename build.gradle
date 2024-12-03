@@ -14,8 +14,6 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation('org.jetbrains:annotations:15.0')
     implementation('com.github.ChubarevYuri:LogTable:master-SNAPSHOT')
     implementation("io.github.java-native:jssc:2.9.5")
