@@ -21,10 +21,6 @@ dependencies {
     implementation("io.github.java-native:jssc:2.9.5")
 }
 
-test {
-    useJUnitPlatform()
-}
-
 java {
     withJavadocJar()
     withSourcesJar()
