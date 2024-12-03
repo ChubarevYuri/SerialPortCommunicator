@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0896bf5a-b91c-4755-89e6-b7ca90a42493" name="Changes" comment="Objects for 1PV">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setting.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/BRIS/M4122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/BaudRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/BaudRateFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/ByteConvertedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/CHK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/CRC16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/ChkControlException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/ChkFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/LRC8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogFormatFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogTypeFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/FilterFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/I7017R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/OutOfRangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/SampleMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/SampleModeFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/Watchdog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/TPA/BFU_GB106v1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/TPA/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/TPA/KS8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/UByteFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DataBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DataBitsFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DeviceInterfaceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/In.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Relay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/FlowControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/FlowControlFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/In.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/InspectedControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Modbus/AET/AET421_01C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Modbus/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Out.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Parity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/ParityFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Port.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/PortException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/PortFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/StopBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/StopBitsFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/UByte.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SerialPortCommunicator" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ogZcBVGmmnxAsfWmIzv6JMmpRm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Gradle.SerialPortCommunicator [:Main.main()].executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/JavaLib/SerialPortCommunicator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Projects/JavaLib/SerialPortCommunicator/src/main/java/ru/tpi/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.48850575",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0896bf5a-b91c-4755-89e6-b7ca90a42493" name="Changes" comment="" />
+      <created>1731293259510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731293259510</updated>
+      <workItem from="1731293260633" duration="40897000" />
+      <workItem from="1731640787868" duration="58513000" />
+      <workItem from="1732076208529" duration="5295000" />
+      <workItem from="1732085581118" duration="2218000" />
+      <workItem from="1732154511985" duration="4771000" />
+      <workItem from="1732163624574" duration="9128000" />
+      <workItem from="1732175051588" duration="549000" />
+      <workItem from="1732175612440" duration="41908000" />
+      <workItem from="1732502980773" duration="39746000" />
+      <workItem from="1732603688359" duration="59853000" />
+      <workItem from="1732784814536" duration="42681000" />
+      <workItem from="1733117280206" duration="23597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Objects for 1PV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Objects for 1PV" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/Base.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java</url>
+          <line>18</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java</url>
+          <line>28</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java</url>
+          <line>27</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java</url>
+          <line>38</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java</url>
+          <line>37</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
