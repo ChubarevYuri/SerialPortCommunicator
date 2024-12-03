@@ -1359,7 +1359,7 @@ public class Port implements ByteConvertedObject {
      * @param startIndex start index to parsed
      * @return the {@code Port} value represented by the argument.
      * @throws PortException if the serial port not found.
-     * @throws PortFormatException if the {@code arr} length <= {@code startIndex} + needBytes, charset err.
+     * @throws PortFormatException if the {@code arr} length ≤ {@code startIndex} + needBytes, charset err.
      * @throws BaudRateFormatException if <b>byte</b> does not contain a parsable {@link BaudRate}.
      * @throws ParityFormatException if <b>byte</b> does not contain a parsable {@link Parity}.
      * @throws DataBitsFormatException if <b>byte</b> does not contain a parsable {@link DataBits}.

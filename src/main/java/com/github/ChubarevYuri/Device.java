@@ -7,8 +7,14 @@ import org.jetbrains.annotations.NotNull;
  */
 public abstract class Device {
 
+    /**
+     * Maximum attempts to send a message.
+     */
     protected static final int MAX_SEND = 3;
 
+    /**
+     * {@link Port} for connect with device.
+     */
     protected final @NotNull Port port;
 
     /**
@@ -83,6 +89,9 @@ public abstract class Device {
 
     //region Connection
 
+    /**
+     * communication with device.
+     */
     protected boolean connected = false;
 
     /**
@@ -148,7 +157,7 @@ public abstract class Device {
 
     /**
      * Set the frequency of attempts to restore communication with the device when it is disconnected.
-     * <br>If {@code v} <= 0 then automation is off.
+     * <br>If {@code v} less or zero then automation is off.
      * @param v seconds.
      */
     public void setAutoReconnectTimeout(int v) {
@@ -168,11 +177,19 @@ public abstract class Device {
 
     /**
      * Cyclic survey method
+     * @throws Exception all errors.
      */
     protected abstract void inspection() throws Exception;
 
+    /**
+     * Object with {@code getDevice()}.
+     * @param <T> Type of object.
+     */
     public abstract class In<T> extends com.github.ChubarevYuri.In<T> {
 
+        /**
+         * @return device of object.
+         */
         public Device getDevice() {
             return Device.this;
         }

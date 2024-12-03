@@ -9,6 +9,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.nio.ByteBuffer;
 
+/**
+ * base class for modbus protocol.
+ */
 public abstract class Base extends Device {
 
     /**
@@ -199,6 +202,9 @@ public abstract class Base extends Device {
 
     //region Address
 
+    /**
+     * address of channel
+     */
     protected @NotNull UByte address;
 
     /**
