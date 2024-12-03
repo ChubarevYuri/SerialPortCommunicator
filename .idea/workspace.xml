@@ -4,67 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0896bf5a-b91c-4755-89e6-b7ca90a42493" name="Changes" comment="Objects for 1PV">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setting.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/BRIS/M4122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/BaudRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/BaudRateFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/ByteConvertedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/CHK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/CRC16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/ChkControlException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/ChkFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Checksum/LRC8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogFormatFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/AnalogTypeFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/FilterFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/I7017R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/OutOfRangeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/SampleMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/SampleModeFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/ICP/Watchdog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/TPA/BFU_GB106v1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/TPA/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/TPA/KS8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DCON/UByteFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DataBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DataBitsFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/DeviceInterfaceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/In.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Indicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Elements/Relay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/FlowControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/FlowControlFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/In.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/InspectedControl.java" afterDir="false" />
+    <list default="true" id="0896bf5a-b91c-4755-89e6-b7ca90a42493" name="Changes" comment="Add config">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Modbus/AET/AET421_01C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Modbus/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Out.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Parity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/ParityFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Port.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/PortException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/PortFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/StopBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/StopBitsFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/UByte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ChubarevYuri"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ChubarevYuri/SerialPortCommunicator",
+    "accountId": "be924332-10bd-4b2d-abe8-21941153ffc3"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -126,7 +80,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/JavaLib/SerialPortCommunicator",
+    "last_opened_file_path": "D:/Projects/JavaServer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -140,6 +94,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\JavaLib\SerialPortCommunicator" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -167,8 +126,25 @@
       <workItem from="1732502980773" duration="39746000" />
       <workItem from="1732603688359" duration="59853000" />
       <workItem from="1732784814536" duration="42681000" />
-      <workItem from="1733117280206" duration="23597000" />
+      <workItem from="1733117280206" duration="25243000" />
     </task>
+    <task id="LOCAL-00001" summary="Objects for 1PV">
+      <option name="closed" value="true" />
+      <created>1733196131714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733196131714</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add config">
+      <option name="closed" value="true" />
+      <created>1733196579711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733196579711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Objects for 1PV" />
-    <option name="LAST_COMMIT_MESSAGE" value="Objects for 1PV" />
+    <MESSAGE value="Add config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,11 +213,6 @@
             <option name="lambda-ordinal" value="0" />
           </properties>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/github/ChubarevYuri/Main.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
